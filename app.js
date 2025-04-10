@@ -27,4 +27,5 @@ function clickHandler(color){
   document.getElementById("purple").onclick = clickHandler("purple");
   document.getElementById("yellow").onclick = clickHandler("yellow");
   document.getElementById("silver").onclick = clickHandler("silver");
-  document.getElementById("black").onclick = clickHandler("black")
+  document.getElementById("black").onclick = clickHandler("black");
+  document.getElementById("grey").onclick = clickHandler("grey")
