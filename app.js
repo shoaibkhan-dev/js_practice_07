@@ -29,3 +29,20 @@ function clickHandler(color){
   document.getElementById("silver").onclick = clickHandler("silver");
   document.getElementById("black").onclick = clickHandler("black");
   document.getElementById("grey").onclick = clickHandler("grey")
+
+  const day = "monday"
+  switch(day){
+    case "monday":
+    console.log("today is monday");
+    console.log("monday monday monday")
+    break;
+    case "tuesday":
+    console.log("today is tuesday");
+    break
+    case "wednesday":
+    console.log("today is wednesday");
+    break
+    default: 
+    console.log("invalid data");
+    break
+  }
