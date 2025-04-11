@@ -30,19 +30,62 @@ function clickHandler(color){
   document.getElementById("black").onclick = clickHandler("black");
   document.getElementById("grey").onclick = clickHandler("grey")
 
-  const day = "monday"
-  switch(day){
-    case "monday":
-    console.log("today is monday");
-    console.log("monday monday monday")
-    break;
-    case "tuesday":
-    console.log("today is tuesday");
+//   const day = "monday"
+//   switch(day){
+//     case "monday":
+//     console.log("today is MONDAY");
+//     console.log("monday monday monday")
+//     break;
+//     case "tuesday":
+//     console.log("today is tuesday");
+//     break
+//     case "wednesday":
+//     console.log("today is wednesday");
+//     break
+//     default: 
+//     console.log("invalid data");
+//     break
+//   }
+
+
+//   const x = 10;
+//   switch (x){
+//     case 8:
+//         console.log("this is incorrect");
+//         break
+//     case 9:
+//         console.log("this is incorrect");
+//         break
+//   }
+
+
+//   function clickHandler(color){
+      
+//     return function(){
+//         document.body.style.backgroundColor = `${color}`
+//     }
+//   }
+//   document.getElementById("orange").onclick = clickHandler("orange")
+
+
+
+  let month = "may"
+  switch(april){
+    case "april":
+    console.log("this month is april");
     break
-    case "wednesday":
-    console.log("today is wednesday");
+    case "may":
+    console.log("next month is may");
     break
-    default: 
-    console.log("invalid data");
+    case "june":
+    console.log("june will be after may");
     break
+    case "july":
+    console.log("july will be after june");
+    break
+    case "august":
+    console.log("august will be so hot");
+    break
+    default:
+    console.log("invalid month");
   }
