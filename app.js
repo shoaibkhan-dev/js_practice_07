@@ -69,7 +69,7 @@ function clickHandler(color){
 
 
 
-  let month = "may"
+  const month = "may"
   switch(april){
     case "april":
     console.log("this month is april");
@@ -89,3 +89,22 @@ function clickHandler(color){
     default:
     console.log("invalid month");
   }
+
+  const day = 1
+  switch(monday){
+    case "monday":
+        console.log("today is monday");
+    break;
+    case 2:
+        console.log("this is tuesday");
+    break;
+    case 3:
+        console.log("this is wednesday");
+    break;
+    case 4:
+        console.log("this is thirsday");
+    default:
+        console.log("invalid data")
+  }
+
+
